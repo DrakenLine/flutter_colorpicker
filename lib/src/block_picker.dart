@@ -56,7 +56,7 @@ class BlockPicker extends StatefulWidget {
 
     return Container(
       width: orientation == Orientation.portrait ? 300.0 : 300.0,
-      height: orientation == Orientation.portrait ? 360.0 : 200.0,
+      height: orientation == Orientation.portrait ? 360.0 : 50.0,
       child: GridView.count(
         crossAxisCount: orientation == Orientation.portrait ? 4 : 6,
         crossAxisSpacing: 5.0,
